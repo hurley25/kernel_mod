@@ -1,6 +1,6 @@
 #!Makefile
 
-obj-m = hello.o
+obj-m = aufs.o
 KERNEL_DIR = /usr/src/kernels/$(shell uname -r)
 
 PWD = $(shell pwd)
